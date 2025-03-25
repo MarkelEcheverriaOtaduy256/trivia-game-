@@ -2,7 +2,7 @@ import random
 import json
 
 # Cargar el dataset de preguntas desde un archivo JSON
-with open(r'c:\Users\marke\OneDrive\Documentos\IA\Python\trivia.json', 'r', encoding='utf-8') as f:
+with open(r'c:\trivia.json', 'r', encoding='utf-8') as f:
     trivia_data = json.load(f)
 
 # Función para evaluar la respuesta del usuario
